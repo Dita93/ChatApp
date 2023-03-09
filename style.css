@@ -1,0 +1,113 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(215, 250, 255);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .prozor{
+background-color: rgb(241, 237, 237);
+
+
+  }
+  
+  .broj-clanova {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(246, 174, 230);
+   
+  }
+  
+  .lista {
+   background-color: rgb(174, 165, 165);
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    
+  }
+  
+  .poruka {
+    color: rgb(3, 3, 3);
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    overflow: scroll;
+    position: relative;
+    overflow-x: hidden;
+    word-break: break-word;
+    height: 500px;
+  }
+  
+  
+  .forma {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .upis-poruke {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .button {
+    padding: 5px;
+    background-color: #f904c8;
+    color: white;
+    border: none;
+  }
+  
+
+  .my-message {
+    background-color: #f8fdd9;
+    color: rgb(9, 9, 9);
+    float: right;
+    clear: both;
+    margin-right: 10px;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #0c0c0c,
+   1px 2px 1px #615050,
+   1px 3px 1px #503939,
+  
+1px 18px 6px rgba(15, 15, 15, 0.4),
+1px 22px 10px rgba(97, 95, 95, 0.2),
+1px 25px 35px rgba(188, 183, 183, 0.2),
+1px 30px 60px rgba(255, 255, 255, 0.4);;
+margin: 10px;
+  }
+  
+  .other-message {
+    background-color: #ffffff;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #0c0c0c,
+   1px 2px 1px #615050,
+   1px 3px 1px #503939,
+  
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);;
+margin: 10px;
+  }
