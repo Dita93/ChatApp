@@ -111,3 +111,14 @@ margin: 10px;
 1px 30px 60px rgba(16,16,16,0.4);;
 margin: 10px;
   }
+
+
+
+  @media only screen and (max-width: 768px) {
+   
+    .poruka{
+width: 50vw;
+
+    }
+    }
+  
